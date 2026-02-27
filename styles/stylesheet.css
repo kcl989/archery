@@ -1,0 +1,50 @@
+*{font-family: 'Arial';}
+header {
+    background-image: url('../images/archeryAcademy-logo-white.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50px center;
+    height: 150px;
+    background-color:rgb(3, 163, 223); 
+}
+footer {
+    background-image: url('../images/footerImage.jpg');
+    width:100%;
+    height: auto;
+}
+h1 {
+    font-weight:bold;
+    font-size: 40px;
+}
+h2 {
+    font-weight:bold;
+    font-size: 24px;
+}
+h3 {
+    font-weight:bold;
+    font-size: 17px;
+}
+body {
+    font-size: 17px;
+}
+.classes-container {
+    display: flex;
+    flex-direction: row;
+}
+.class {
+    border: 30px solid rgb(27, 68, 127);
+    flex: 1;
+}
+.private-lessons-container {
+    display: flex;
+    flex-direction: row;
+}
+.lesson {
+    border: 30px solid rgb(236, 183, 34);
+    flex: 1;
+}
+.instructors {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(68, 68, 68);
+}
