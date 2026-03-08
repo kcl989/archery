@@ -1,4 +1,5 @@
 *{font-family: 'Arial';}
+*{box-sizing: border-box;}
 header {
     background-image: url('../images/archeryAcademy-logo-white.png');
     background-size: contain;
@@ -9,8 +10,8 @@ header {
 }
 footer {
     background-image: url('../images/footerImage.jpg');
-    width:100%;
     height: auto;
+    grid-column: 1 / span 2;
 }
 h1 {
     font-weight:bold;
@@ -43,8 +44,20 @@ body {
     border: 30px solid rgb(236, 183, 34);
     flex: 1;
 }
-.instructors {
-    display: flex;
-    flex-direction: column;
+.grid-instructors {
+    display: grid;
+    grid-gap: 20px 30px;
     background-color: rgb(68, 68, 68);
+}
+.grid-instructor-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.grid-instructor-2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.grid-instructor-3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
 }
