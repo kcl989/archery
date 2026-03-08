@@ -47,7 +47,7 @@ body {
 .grid-instructors {
     display: grid;
     grid-gap: 20px 30px;
-    background-color: rgb(68, 68, 68);
+    border: 30px solid rgb(68, 68, 68);
 }
 .grid-instructor-1 {
     grid-column: 1/2;
